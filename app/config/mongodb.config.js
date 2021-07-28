@@ -1,3 +1,3 @@
 module.exports = {
-  url: 'mongodb://127.0.0.1:27017/inventory'
+  url: 'mongodb+srv://Utkarsh:Utkarsh123@cluster0.n7vn6.mongodb.net/InventoryDB?retryWrites=true&w=majority'
 }

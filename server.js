@@ -19,6 +19,7 @@ mongoose.connect(dbConfig.url, { useNewUrlParser: true, useUnifiedTopology: true
         console.log("Successfully connected to MongoDB.");   
      
     }).catch(err => {
+        console.log(err);
         console.log('Could not connect to MongoDB.');
         process.exit();
     });
