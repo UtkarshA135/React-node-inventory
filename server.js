@@ -32,7 +32,7 @@ require('./app/routes/customer.router.js')(app);
 // Create a Server
 var server = app.listen(8080, function () { 
   var host = server.address().address
-  var port = server.address().port
+  var port = server.address().port || process.env.PORT
  
   console.log("App listening at http://%s:%s", host, port) 
 })
