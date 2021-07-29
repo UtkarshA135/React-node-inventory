@@ -32,5 +32,5 @@ require("./app/routes/customer.router.js")(app);
 
 // Create a Server
 app.listen(process.env.PORT || 8080, function () {
-	console.log("App listening at port: %s", port);
+	console.log("App listening at port: %s", 8080);
 });
